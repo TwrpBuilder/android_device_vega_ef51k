@@ -32,3 +32,7 @@ deploy:
     tags: false
     repo: TwrpBuilder/android_device_vega_ef51k
     branch: master
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
